@@ -1,5 +1,31 @@
 from random import randint
 
+class Character:
+    def __init__(self, name):
+        self.name = name
+        self.attack = 
+
+    def attack(self):
+
+    def defence(self):
+
+    def special(self):
+
+
+
+class Warrior(Character):
+
+    def __init__(self, name):
+        special().__init__(name)
+        self.attack = 
+
+
+class Mage(Character):
+
+class Healer(Character):
+
+
+
 
 def attack(char_name: str, char_class: str) -> str:
     """1."""
